@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: #FFFFFF;
   min-height: 30px;
@@ -69,8 +69,8 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 30%;
+  border: 3px dotted #000000;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -87,6 +87,9 @@ header .profile-image:hover {
 .location {
   background-color: #222;
   color: #189aff;
+}
+.flag {
+  max-width: 200px;
 }
 .card {
   margin: 30px;
